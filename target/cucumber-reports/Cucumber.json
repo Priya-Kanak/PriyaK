@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Sample Get Method",
+        "description": "",
+        "id": "test-get/post-method-of-rest-rest-api;sample-get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153361300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set base url",
+            "match": {
+              "location": "TeststepDefibition.i_set_base_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5150748000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i hit get request",
+            "match": {
+              "location": "TeststepDefibition.i_hit_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37579100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate success response",
+            "match": {
+              "location": "TeststepDefibition.i_validate_success_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Get/Post Method of Rest REST API",
+    "description": "",
+    "id": "test-get/post-method-of-rest-rest-api",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Test.feature"
+  }
+]

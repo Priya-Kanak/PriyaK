@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.341688">
+<testcase classname="Test Get/Post Method of Rest REST API" name="Sample Get Method" time="5.341688">
+<system-out><![CDATA[Given I set base url........................................................passed
+When i hit get request......................................................passed
+Then I validate success response............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
